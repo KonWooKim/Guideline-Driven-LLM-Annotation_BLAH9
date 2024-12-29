@@ -155,4 +155,4 @@ By implementing these improvements, we aim to produce an automated system that c
 ## References
 
 - Dogan RI, Leaman R, Lu Z. “NCBI disease corpus: A resource for disease name recognition and concept normalization.” _Journal of Biomedical Informatics_, 2014.
-- [NCBI Disease Corpus (GitHub)](https://github.com/NCBI-disease-corpus)
+- [NCBI Disease Corpus (GitHub)](https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/)
