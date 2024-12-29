@@ -32,9 +32,9 @@ The rapid advancement of large language models (LLMs), such as GPTs, presents ne
 
 **“Optimizing Biomedical Annotations with Guideline Integration in Large Language Models”**
 
----
-
 This project explores multiple strategies for integrating comprehensive, domain-specific annotation guidelines into LLMs, evaluating how each approach impacts annotation accuracy and consistency. By comparing results against human-annotated datasets, we will assess the effectiveness of explicitly providing or embedding domain guidelines into the model’s reasoning process.
+
+We aim to
 
 - Provide explicit instructions to the model using domain-specific annotation rules.
 - Compare the performance of LLM-generated annotations against human annotations.
