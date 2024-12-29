@@ -146,6 +146,25 @@ Compare the annotation accuracy of dynamic referencing vs. static prompts or emb
 | Day 4 | - Conduct comparative analysis of all three methods<br>- Evaluate results against human-annotated benchmarks<br>- Summarize findings and present final results |
 | Day 5 | **Final Presentation** (available until afternoon)                                                                                                             |
 
+gantt
+dateFormat YYYY-MM-DD
+title Project Timeline
+
+    section Day 1
+    Dataset/Guidelines & Method Selection :active, d1, 2024-01-13, 1d
+
+    section Day 2
+    Symposium                            : d2, 2024-01-14, 1d
+
+    section Day 3
+    Development & Gap Analysis           : d3, 2024-01-15, 1d
+
+    section Day 4
+    Comparative Analysis & Results       : d4, 2024-01-16, 1d
+
+    section Day 5
+    Final Presentation                   : d5, 2024-01-17, 1d
+
 ---
 
 By implementing these improvements, we aim to produce an automated system that can annotate as effectively as human experts in the domain-specific area. This approach will demonstrate whether explicitly providing or embedding guidelines in large language models can significantly boost the quality and consistency of biomedical annotations—an essential step toward more efficient biomedical research and application.
