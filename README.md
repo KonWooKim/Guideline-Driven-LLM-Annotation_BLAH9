@@ -1,4 +1,44 @@
-# Leveraging Annotation Guidelines in Prompting LLM Annotators
+````markdown
+# :memo: Leveraging Annotation Guidelines in Prompting LLM Annotators
+
+> **A visual and comprehensive overview of our project on integrating domain-specific guidelines into LLMs for biomedical text annotation.**
+
+---
+
+## Table of Contents
+
+- [:bulb: Motivation](#bulb-motivation)
+- [:loudspeaker: Project Theme](#loudspeaker-project-theme)
+- [:bookmark_tabs: Background](#bookmark_tabs-background)
+- [:dna: Dataset](#dna-dataset)
+  - [NCBI Disease Corpus](#ncbi-disease-corpus)
+- [:hammer_and_wrench: Tools](#hammer_and_wrench-tools)
+- [:triangular_ruler: Method](#triangular_ruler-method)
+  - [1. Guideline Injection via Prompting](#1-guideline-injection-via-prompting)
+  - [2. Knowledge-Embedding in Customized-LLMs](#2-knowledge-embedding-in-customized-llms)
+  - [3. Guideline-Driven Web-Based Annotation](#3-guideline-driven-web-based-annotation)
+- [:bar_chart: Evaluation](#bar_chart-evaluation)
+  - [Quantitative Metrics](#quantitative-metrics)
+  - [Qualitative Analysis](#qualitative-analysis)
+- [:calendar: Schedule](#calendar-schedule)
+- [:books: References](#books-references)
+
+---
+
+```mermaid
+flowchart LR
+    A[Motivation] --> B[Dataset & Tools]
+    B --> C(Method 1<br>Guideline Injection)
+    B --> D(Method 2<br>Knowledge Embedding)
+    B --> E(Method 3<br>Web-Based Annotation)
+    C --> F[Evaluation]
+    D --> F[Evaluation]
+    E --> F[Evaluation]
+    F --> G[Schedule]
+
+
+
+<!-- # Leveraging Annotation Guidelines in Prompting LLM Annotators
 
 ## Table of Contents
 
@@ -18,7 +58,7 @@
   - [Quantitative Metrics](#quantitative-metrics)
   - [Qualitative Analysis](#qualitative-analysis)
 - [Schedule](#schedule)
-- [References](#references)
+- [References](#references) -->
 
 ---
 
@@ -78,7 +118,7 @@ We will explore three complementary approaches to guideline integration:
 
 ### 1. Guideline Injection via Prompting
 
-**Description**  
+**Description**
 Provide the LLM with relevant sections of the annotation guidelines as part of the prompt. For instance, summarize rules for identifying gene/protein mentions and disease terms so they fit within token limits.
 
 **Implementation**
@@ -86,14 +126,14 @@ Provide the LLM with relevant sections of the annotation guidelines as part of t
 1. Select or summarize the most critical parts of the guideline.
 2. Prompt GPT-4 (or a similar model) with these rules before annotation.
 
-**Evaluation**  
+**Evaluation**
 Compare generated annotations to human annotations in PubAnnotation. Assess improvements in **F1-score**, **precision**, and **recall**.
 
 ---
 
 ### 2. Knowledge-Embedding in Customized LLMs
 
-**Description**  
+**Description**
 Integrate the annotation guidelines directly into knowledge in a customized GPT.
 
 **Implementation**
@@ -101,14 +141,14 @@ Integrate the annotation guidelines directly into knowledge in a customized GPT.
 1. Embed knowledge, guidelines, or biomedical text, ensuring they become part of the model’s internal knowledge.
 2. Test whether the model can generalize to new texts without being explicitly prompted with the guidelines.
 
-**Evaluation**  
+**Evaluation**
 Compare performance (**F1**, **precision**, **recall**) with the prompt-only method. Examine whether this approach yields higher consistency and fewer guideline violations, especially under zero-shot or few-shot conditions.
 
 ---
 
 ### 3. Guideline-Driven Web-Based Annotation
 
-**Description**  
+**Description**
 Develop a webpage that hosts the annotation guidelines, allowing the LLM to query them dynamically through a web search interface.
 
 **Implementation**
@@ -116,7 +156,7 @@ Develop a webpage that hosts the annotation guidelines, allowing the LLM to quer
 1. Create a website that clearly structures the guidelines (e.g., definitions, examples, annotation cases).
 2. Configure the LLM to reference the website as needed.
 
-**Evaluation**  
+**Evaluation**
 Compare the annotation accuracy of dynamic referencing vs. static prompts or embedded knowledge. Investigate if real-time guideline updates improve adaptability and performance.
 
 ---
@@ -156,3 +196,5 @@ By implementing these improvements, we aim to produce an automated system that c
 
 - Dogan RI, Leaman R, Lu Z. “NCBI disease corpus: A resource for disease name recognition and concept normalization.” _Journal of Biomedical Informatics_, 2014.
 - [NCBI Disease Corpus (GitHub)](https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/)
+```
+````
