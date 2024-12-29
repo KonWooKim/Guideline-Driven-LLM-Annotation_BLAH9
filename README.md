@@ -34,13 +34,7 @@ The rapid advancement of large language models (LLMs), such as GPTs, presents ne
 
 ---
 
-## Annotation Guidelines for LLM Annotators
-
 This project explores multiple strategies for integrating comprehensive, domain-specific annotation guidelines into LLMs, evaluating how each approach impacts annotation accuracy and consistency. By comparing results against human-annotated datasets, we will assess the effectiveness of explicitly providing or embedding domain guidelines into the model’s reasoning process.
-
----
-
-## LLM Guidelines
 
 - Provide explicit instructions to the model using domain-specific annotation rules.
 - Compare the performance of LLM-generated annotations against human annotations.
@@ -64,7 +58,7 @@ For example, **PubAnnotation** provides curated biomedical text with annotations
 - **Annotations**: Disease entity annotations with normalization to Medical Subject Headings (MeSH) or Online Mendelian Inheritance in Man (OMIM).
 - **Guidelines**: The corpus was annotated using a set of guidelines that specify how to identify and label disease mentions, including abbreviations and synonyms.
 - **Reference**: Dogan RI, Leaman R, Lu Z. “NCBI disease corpus: A resource for disease name recognition and concept normalization.” _Journal of Biomedical Informatics_, 2014.
-- **Link**: [NCBI Disease Corpus (GitHub)](https://github.com/NCBI-disease-corpus) or [NCBI website](https://www.ncbi.nlm.nih.gov/).
+- **Link**: [NCBI Disease Corpus (GitHub)](https://github.com/spyysalo/ncbi-disease?tab=readme-ov-file) or [NCBI website](https://www.ncbi.nlm.nih.gov/).
 
 ---
 
