@@ -54,6 +54,8 @@ For example, **PubAnnotation** provides curated biomedical text with annotations
 
 ### NCBI Disease Corpus
 
+![NCBI Disease Resource](./images/ncbi_disease_screenshot.png)
+
 - **Description**: Focuses on disease mentions in PubMed abstracts.
 - **Annotations**: Disease entity annotations with normalization to Medical Subject Headings (MeSH) or Online Mendelian Inheritance in Man (OMIM).
 - **Guidelines**: The corpus was annotated using a set of guidelines that specify how to identify and label disease mentions, including abbreviations and synonyms.
