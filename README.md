@@ -194,7 +194,8 @@ Develop a webpage that hosts the annotation guidelines, allowing the LLM to quer
 
 (https://github.com/KonWooKim/Guideline)
 
-![image](https://github.com/user-attachments/assets/a5d03552-8e37-48e0-8347-e19ff62d494c)
+![image](https://github.com/user-attachments/assets/34494ccd-ac3d-4aef-b6fe-d11155b08dab)
+
 
 
 **Evaluation**  
