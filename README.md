@@ -88,6 +88,7 @@ Provide the LLM with relevant sections of the annotation guidelines as part of t
 (https://platform.openai.com/docs/guides/prompt-generation#prompts)
 <details>
   
+```python
 from openai import OpenAI
 
 client = OpenAI()
@@ -154,6 +155,7 @@ def generate_prompt(task_or_prompt: str):
   )
 
   return completion.choices[0].message.content
+```
 </details>
 
 **Evaluation**  
