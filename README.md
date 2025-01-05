@@ -91,7 +91,7 @@ Compare generated annotations to human annotations in PubAnnotation. Assess impr
 
 ---
 
-### 2. Knowledge-Embedding in Customized LLMs
+### 2. Knowledge-Embedding in Customized LLMs (GPTs)
 
 **Description**  
 Integrate the annotation guidelines directly into knowledge in a customized GPT.
@@ -100,6 +100,8 @@ Integrate the annotation guidelines directly into knowledge in a customized GPT.
 
 1. Embed knowledge, guidelines, or biomedical text, ensuring they become part of the model’s internal knowledge.
 2. Test whether the model can generalize to new texts without being explicitly prompted with the guidelines.
+(https://openai.com/index/introducing-gpts/)
+![image](https://github.com/user-attachments/assets/056a856c-2fba-4489-b638-c013ebf29e14)
 
 **Evaluation**  
 Compare performance (**F1**, **precision**, **recall**) with the prompt-only method. Examine whether this approach yields higher consistency and fewer guideline violations, especially under zero-shot or few-shot conditions.
