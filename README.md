@@ -86,7 +86,6 @@ Provide the LLM with relevant sections of the annotation guidelines as part of t
 1. Select or summarize the most critical parts of the guideline.
 2. Prompt GPT-4 (or a similar model) with these rules before annotation.
 (https://platform.openai.com/docs/guides/prompt-generation#prompts)
-<details>
   
 ```python
 from openai import OpenAI
@@ -156,7 +155,6 @@ def generate_prompt(task_or_prompt: str):
 
   return completion.choices[0].message.content
 ```
-</details>
 
 **Evaluation**  
 Compare generated annotations to human annotations in PubAnnotation. Assess improvements in **F1-score**, **precision**, and **recall**.
