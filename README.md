@@ -171,6 +171,7 @@ Integrate the annotation guidelines directly into knowledge in a customized GPT.
 
 1. Embed knowledge, guidelines, or biomedical text, ensuring they become part of the model’s internal knowledge.
 2. Test whether the model can generalize to new texts without being explicitly prompted with the guidelines.
+
 (https://openai.com/index/introducing-gpts/)
 
 ![GPTs](https://github.com/user-attachments/assets/941a0f71-4dc0-4e8d-a43b-88e6687cf23e)
