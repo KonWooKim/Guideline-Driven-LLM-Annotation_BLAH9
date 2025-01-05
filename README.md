@@ -85,6 +85,7 @@ Provide the LLM with relevant sections of the annotation guidelines as part of t
 
 1. Select or summarize the most critical parts of the guideline.
 2. Prompt GPT-4 (or a similar model) with these rules before annotation.
+
 (https://platform.openai.com/docs/guides/prompt-generation#prompts)
   
 ```python
@@ -171,6 +172,7 @@ Integrate the annotation guidelines directly into knowledge in a customized GPT.
 1. Embed knowledge, guidelines, or biomedical text, ensuring they become part of the model’s internal knowledge.
 2. Test whether the model can generalize to new texts without being explicitly prompted with the guidelines.
 (https://openai.com/index/introducing-gpts/)
+
 ![GPTs](https://github.com/user-attachments/assets/941a0f71-4dc0-4e8d-a43b-88e6687cf23e)
 
 **Evaluation**  
@@ -187,6 +189,11 @@ Develop a webpage that hosts the annotation guidelines, allowing the LLM to quer
 
 1. Create a website that clearly structures the guidelines (e.g., definitions, examples, annotation cases).
 2. Configure the LLM to reference the website as needed.
+
+(https://github.com/KonWooKim/Guideline)
+
+![image](https://github.com/user-attachments/assets/a5d03552-8e37-48e0-8347-e19ff62d494c)
+
 
 **Evaluation**  
 Compare the annotation accuracy of dynamic referencing vs. static prompts or embedded knowledge. Investigate if real-time guideline updates improve adaptability and performance.
