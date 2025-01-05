@@ -86,6 +86,7 @@ Provide the LLM with relevant sections of the annotation guidelines as part of t
 1. Select or summarize the most critical parts of the guideline.
 2. Prompt GPT-4 (or a similar model) with these rules before annotation.
 
+(https://platform.openai.com/docs/guides/prompt-engineering)
 (https://platform.openai.com/docs/guides/prompt-generation#prompts)
   
 ```python
