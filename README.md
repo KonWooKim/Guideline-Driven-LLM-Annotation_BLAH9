@@ -79,7 +79,7 @@ One of the key obstacles is that LLM annotators do not fully understand what dat
 
 ## Method
 
-We will explore three complementary approaches to guideline integration:
+We will test three compatible approaches to knowledge embedding with guideline provision:
 
 ### 1. Guideline Injection via Prompting
 
