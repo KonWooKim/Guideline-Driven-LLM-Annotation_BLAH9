@@ -243,7 +243,7 @@ Provide a live reference interface where the LLM can dynamically query guideline
 
 ---
 
-Through this project, we aim to develop LLM annotators that can achieve annotation performance comparable to that of human experts in the biomedical field. Our approach will demonstrate whether knowledge embedding, combined with guideline provision, can improve the quality and consistency of complex annotation tasks — an essential step toward more time- and cost-efficient biomedical research and applications.
+Through this project, we aim to develop LLM annotators that can achieve annotation performance comparable to that of human experts in the biomedical field. Our approach will demonstrate whether knowledge embedding, combined with guideline provision, can improve the quality and consistency of complex annotation tasks — **an essential step toward more time- and cost-efficient biomedical research and applications.**
 
 ---
 
