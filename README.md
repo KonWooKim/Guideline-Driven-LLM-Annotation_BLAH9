@@ -172,6 +172,7 @@ def generate_prompt(task_or_prompt: str):
 ### 2. Knowledge-Embedding in Customized LLMs (GPTs)
 
 **Description**  
+
 Integrate the annotation guidelines directly into knowledge in a customized GPT so that it inherently "learns" and "knows" the annotation rules.
 
 **Implementation**
@@ -190,6 +191,7 @@ Integrate the annotation guidelines directly into knowledge in a customized GPT 
 ### 3. Guideline-Driven Web-Based Annotation
 
 **Description**  
+
 Provide a live reference interface where the LLM can dynamically query guidelines on demand during the annotation task.
 
 **Implementation**
