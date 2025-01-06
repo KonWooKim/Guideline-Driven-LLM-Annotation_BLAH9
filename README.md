@@ -224,6 +224,18 @@ Develop a webpage that hosts the annotation guidelines, allowing the LLM to quer
 
 ---
 
+### Extensions and Future Work
+
+Multi-Guideline Integration: Explore how multiple sets of overlapping or conflicting guidelines can be harmonized within the same LLM.
+
+Cross-Domain Transfer: Investigate whether guidelines for one biomedical subfield (e.g., disease annotation) can generalize to others (e.g., drug or gene annotation).
+
+Active Learning Approaches: Combine human-in-the-loop revisions with automated annotation to continually refine guideline interpretations and model performance.
+
+Application to Other Biomedical Datasets: Beyond NCBI Disease Corpus, test on resources like BC5CDR (BioCreative V CDR Task) to confirm generalizability.
+
+---
+
 By implementing these improvements, we aim to produce an automated system that can annotate as effectively as human experts in the domain-specific area. This approach will demonstrate whether explicitly providing or embedding guidelines in large language models can significantly boost the quality and consistency of biomedical annotations—an essential step toward more efficient biomedical research and application.
 
 ---
