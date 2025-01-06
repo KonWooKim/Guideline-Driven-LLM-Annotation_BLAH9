@@ -71,9 +71,9 @@ One of the key obstacles is that LLM annotators do not fully understand what dat
 
 ## Tools
 
-- **PubAnnotation**
-- **Biomedical annotation guidelines** from the NCBI Disease Corpus
-- **LLMs** (GPT-4 and custom GPTs)
+- **PubAnnotation** - Open web-based platform designed to share and manage text annotations
+- **Biomedical annotation guidelines** - from the NCBI Disease Corpus
+- **LLMs** - GPT-4 and custom GPTs
 
 ---
 
