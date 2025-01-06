@@ -230,7 +230,7 @@ Compare the annotation accuracy of dynamic referencing vs. static prompts or emb
 | Day 1 | - Finalize dataset selection and gather concrete annotation guidelines<br>- Identify key entity types to focus on<br>- Test Method 1 ~ 3 and choose one        |
 | Day 2 | **Symposium**                                                                                                                                                  |
 | Day 3 | **Develop Further**<br>- Explore how guidelines made for human annotators can affect LLM annotators<br>- Investigate ways to narrow the gap between them       |
-| Day 4 | - Conduct comparative analysis of all three methods<br>- Evaluate results against human-annotated benchmarks<br>- Summarize findings and present final results |
+| Day 4 | - Conduct comparative analysis of all three methods<br>- Evaluate results against the gold-standard annotations<br>- Summarize findings and present final results |
 | Day 5 | **Final Presentation** (available until afternoon)                                                                                                             |
 
 ---
