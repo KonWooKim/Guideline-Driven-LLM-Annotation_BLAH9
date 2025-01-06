@@ -211,7 +211,7 @@ Provide a live reference interface where the LLM can dynamically query guideline
 
 ### Quantitative Metrics
 
-- **F1-Score**, **Precision**, **Recall**: Compare generated annotations to the ground truth using PubAnnotation.
+- **F1-Score**, **Precision**, **Recall**: Compare the generated annotations to the ground truth using PubAnnotation.
 - **Consistency**: Evaluate annotation uniformity across similar text segments.
 - **Class-Level Analysis**: Break down performance for different entity types (e.g., genes, diseases) to identify strengths and weaknesses.
 
