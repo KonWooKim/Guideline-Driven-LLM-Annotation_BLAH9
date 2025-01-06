@@ -90,10 +90,10 @@ Focus on disease, gene/protein, and related biomedical entities relevant to the 
 
 **Implementation**
 
-1. Guideline Selection: Extract the most essential rules from the official guidelines (e.g., how to handle abbreviations or synonyms).
-2. Prompt Construction: Build a structured prompt that includes these rules alongside sample text passages.
-3. LLM Annotation: Prompt GPT-4 (or similar models) to label relevant entities.
-4. Evaluation: Compare the generated annotations with the gold-standard annotations using PubAnnotation.
+1. **Guideline Selection**: Extract the most essential rules from the official guidelines (e.g., how to handle abbreviations or synonyms).
+2. **Prompt Construction**: Build a structured prompt that includes these rules alongside sample text passages.
+3. **LLM Annotation**: Prompt GPT-4 (or similar models) to label relevant entities.
+4. **Evaluation**: Compare the generated annotations with the gold-standard annotations using PubAnnotation.
 
 (https://platform.openai.com/docs/guides/prompt-engineering)
 (https://platform.openai.com/docs/guides/prompt-generation#prompts)
