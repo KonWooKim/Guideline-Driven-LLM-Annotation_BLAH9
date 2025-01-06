@@ -38,10 +38,10 @@ Ultimately, an important challenge still remains: **Can LLM annotators leverage 
 
 To integrate comprehensive and domain-specific annotation guidelines for higher accuracy and consistency, this project will begin by testing three strategies to guide (prompt) LLM annotators. After an initial comparison of these strategies, we will select the most effective one and further develop it to evaluate whether LLM annotators can achieve desirable performance compared to human annotators. By doing so, we will assess the effectiveness of guideline provision and knowledge embedding in LLM annotators.
 
-We aim to
+We aim to:
 
 - Provide explicit instructions to LLM annotators using existing domain-specific annotation guidelines.
-- Compare the performance of LLM-generated annotations against the gold annotations made by human annotators.
+- Compare the performance of LLM-generated annotations against the gold-standard annotations made by human annotators.
 - Assess improvements in **F1-score**, **precision**, and **recall** when guidelines are incorporated.
 
 ---
