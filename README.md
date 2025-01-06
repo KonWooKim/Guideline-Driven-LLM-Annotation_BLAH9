@@ -48,9 +48,10 @@ We aim to:
 
 ## Background
 
-Accurate biomedical annotations are critical for tasks such as disease-gene association extraction, drug efficacy studies, and systematic literature reviews. Traditionally, these tasks rely on labor-intensive manual annotations guided by detailed instructions (e.g., specifying how to tag gene or protein mentions, disease terms, drug names, etc.). While LLMs promise automation and scalability, they often fall short without explicit access to these domain-specific guidelines.
+Curated annotations are crucial in the biomedical field because they are closely related to clinical decision-making, which is highly associated with human health. Traditionally, annotation tasks heavily depend on labor-intensive activities guided by detailed instructions. Although LLM annotators promise automation and scalability, they still fall short of achieving human-level performance for various reasons.
 
-For example, **PubAnnotation** provides curated biomedical text with annotations for entities like genes, diseases, and proteins. Meanwhile, guidelines or other institution-specific protocols offer standardized rules for consistent labeling. Our hypothesis is that by explicitly incorporating these guidelines—either directly in prompts or embedded within the model—we can significantly improve LLM-driven annotation.
+One of the key obstacles is that LLM annotators do not fully understand what data stakeholders want to collect because they lack sufficient knowledge and are not guided or trained in the same way human annotators are. Our hypothesis is that LLM-driven annotations could be significantly improved if detailed and explicit guidelines are provided and sufficient knowledge and instructions are embedded through the prompts generated for LLM annotators.
+
 
 ---
 
