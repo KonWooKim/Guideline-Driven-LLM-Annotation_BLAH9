@@ -50,7 +50,7 @@ We aim to:
 
 Curated annotations are crucial in the biomedical field because they are closely related to clinical decision-making, which is highly associated with human health. Traditionally, annotation tasks heavily depend on labor-intensive activities guided by detailed instructions. Although LLM annotators promise automation and scalability, they still fall short of achieving human-level performance for various reasons.
 
-One of the key obstacles is that LLM annotators do not fully understand what data stakeholders want to collect because they lack sufficient knowledge and are not guided or trained in the same way human annotators are. Our hypothesis is that LLM-driven annotations could be significantly improved if detailed and explicit guidelines are provided and sufficient knowledge and instructions are embedded through the prompts generated for LLM annotators.
+One of the key obstacles is that LLM annotators do not fully understand what data stakeholders want to collect because they lack sufficient knowledge and are not guided or trained in the same way human annotators are. Our hypothesis is that **LLM-driven annotations could be significantly improved if detailed and explicit guidelines are provided and sufficient knowledge and instructions are embedded through the prompts generated for LLM annotators.**
 
 
 ---
