@@ -84,12 +84,16 @@ We will explore three complementary approaches to guideline integration:
 ### 1. Guideline Injection via Prompting
 
 **Description**  
+
 Provide the LLM with relevant sections of the annotation guidelines as part of the prompt. For instance, summarize rules for identifying gene/protein mentions and disease terms so they fit within token limits.
+Focus on disease, gene/protein, and related biomedical entities relevant to the NCBI Disease Corpus.
 
 **Implementation**
 
-1. Select or summarize the most critical parts of the guideline.
-2. Prompt GPT-4 (or a similar model) with these rules before annotation.
+1. Guideline Selection: Extract the most essential rules from the official guidelines (e.g., how to handle abbreviations or synonyms).
+2. Prompt Construction: Build a structured prompt that includes these rules alongside sample text passages.
+3. LLM Annotation: Prompt GPT-4 (or similar models) to label relevant entities.
+4. Evaluation: Compare the generated annotations with the gold-standard annotations using PubAnnotation.
 
 (https://platform.openai.com/docs/guides/prompt-engineering)
 (https://platform.openai.com/docs/guides/prompt-generation#prompts)
@@ -168,12 +172,14 @@ def generate_prompt(task_or_prompt: str):
 ### 2. Knowledge-Embedding in Customized LLMs (GPTs)
 
 **Description**  
-Integrate the annotation guidelines directly into knowledge in a customized GPT.
+Integrate the annotation guidelines directly into knowledge in a customized GPT so that it inherently "learns" and "knows" the annotation rules.
 
 **Implementation**
 
-1. Embed knowledge, guidelines, or biomedical text, ensuring they become part of the model’s internal knowledge.
-2. Test whether the model can generalize to new texts without being explicitly prompted with the guidelines.
+1. **Guideline Preparation**: Prepare guidelines in any formats, such as PDF, JSON, or TXT.
+2. **Knowledge Embedding**: Embed knowledge, guidelines, or biomedical text to ensure that they become part of LLM annotators' internal knowledge.
+3. **LLM Annotations**: ask LLM annotators to label relevant entities.
+4. **Evaluation**: Compare the generated annotations with the gold-standard annotations using PubAnnotation.
 
 (https://openai.com/index/introducing-gpts/)
 
@@ -184,12 +190,14 @@ Integrate the annotation guidelines directly into knowledge in a customized GPT.
 ### 3. Guideline-Driven Web-Based Annotation
 
 **Description**  
-Develop a webpage that hosts the annotation guidelines, allowing the LLM to query them dynamically through a web search interface.
+Provide a live reference interface where the LLM can dynamically query guidelines on demand during the annotation task.
 
 **Implementation**
 
-1. Create a website that clearly structures the guidelines (e.g., definitions, examples, annotation cases).
-2. Configure the LLM to reference the website as needed.
+1. **Reference creation**: Create a website that clearly structures the guidelines (e.g., definitions, examples, what-to-annotate and what-not-to-annotate, and annotation cases).
+2. **Configuration**: Configure the LLM to reference the website as needed.
+3. **LLM Annotations**: ask LLM annotators to label relevant entities.
+4. **Evaluation**: Compare the generated annotations with the gold-standard annotations using PubAnnotation.
 
 (https://github.com/KonWooKim/Guideline)
 
