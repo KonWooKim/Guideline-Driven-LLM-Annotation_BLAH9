@@ -212,7 +212,7 @@ Compare the annotation accuracy of dynamic referencing vs. static prompts or emb
 
 ### Quantitative Metrics
 
-- **F1-Score**, **Precision**, **Recall**: Compare generated annotations to PubAnnotation’s ground truth.
+- **F1-Score**, **Precision**, **Recall**: Compare generated annotations to the ground truth using PubAnnotation.
 - **Consistency**: Evaluate annotation uniformity across similar text segments.
 - **Class-Level Analysis**: Break down performance for different entity types (e.g., genes, diseases) to identify strengths and weaknesses.
 
