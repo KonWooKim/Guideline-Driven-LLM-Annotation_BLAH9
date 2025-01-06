@@ -163,9 +163,6 @@ def generate_prompt(task_or_prompt: str):
   return completion.choices[0].message.content
 ```
 
-**Evaluation**  
-Compare generated annotations to human annotations in PubAnnotation. Assess improvements in **F1-score**, **precision**, and **recall**.
-
 ---
 
 ### 2. Knowledge-Embedding in Customized LLMs (GPTs)
@@ -182,9 +179,6 @@ Integrate the annotation guidelines directly into knowledge in a customized GPT.
 
 ![GPTs](https://github.com/user-attachments/assets/941a0f71-4dc0-4e8d-a43b-88e6687cf23e)
 
-**Evaluation**  
-Compare performance (**F1**, **precision**, **recall**) with the prompt-only method. Examine whether this approach yields higher consistency and fewer guideline violations, especially under zero-shot or few-shot conditions.
-
 ---
 
 ### 3. Guideline-Driven Web-Based Annotation
@@ -200,11 +194,6 @@ Develop a webpage that hosts the annotation guidelines, allowing the LLM to quer
 (https://github.com/KonWooKim/Guideline)
 
 ![image](https://github.com/user-attachments/assets/34494ccd-ac3d-4aef-b6fe-d11155b08dab)
-
-
-
-**Evaluation**  
-Compare the annotation accuracy of dynamic referencing vs. static prompts or embedded knowledge. Investigate if real-time guideline updates improve adaptability and performance.
 
 ---
 
