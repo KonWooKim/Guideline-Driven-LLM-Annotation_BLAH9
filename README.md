@@ -24,7 +24,15 @@
 
 ## Motivation
 
-The rapid advancement of large language models (LLMs), such as GPTs, presents new opportunities to improve biomedical text annotation. However, a key challenge remains: **Can these models leverage existing guidelines to produce annotations as accurate and consistent as human-generated ones?** By integrating guideline-based domain knowledge into LLMs, we aim to enhance their performance and narrow the gap between automated and human annotation quality in the biomedical field.
+Annotation often requires not only a considerable amount of time but also incurs substantial costs. Certain domains rely heavily on annotated data and seek high-quality datasets.
+
+For instance, curated biomedical data is used to advance AI and ML models, support clinical decision-making, and improve interoperability and standardization across various institutions and systems.
+
+The emergence of large language models (LLMs) has introduced a new paradigm to annotation tasks. Furthermore, recent studies focus on developing LLM annotators to substitute human labeling, which requires huge expenses.
+
+LLM annotators have achieved certain milestones in accomplishing annotation tasks, but they are still far from reaching human-level performance. One of the biggest reasons they fail is that they cannot follow the guidelines that ensure desirable outcomes.
+
+Ultimately, an important challenge still remains: can LLM annotators leverage existing guidelines to produce accurate and consistent annotations comparable to human-generated ones?
 
 ---
 
