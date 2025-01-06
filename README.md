@@ -28,7 +28,7 @@ Annotation often requires not only a considerable amount of time but also incurs
 The emergence of large language models (LLMs) has introduced a new paradigm to annotation tasks. Furthermore, recent studies focus on developing LLM annotators to substitute human labeling, which requires huge expenses. 
 
 LLM annotators have achieved certain milestones in accomplishing annotation tasks, but they are still far from reaching human-level performance. One of the biggest reasons they fail is that they cannot follow the guidelines that ensure desirable outcomes. 
-Ultimately, an important challenge still remains: can LLM annotators leverage existing guidelines to produce accurate and consistent annotations comparable to human-generated ones?
+Ultimately, an important challenge still remains: **Can LLM annotators leverage existing guidelines to produce accurate and consistent annotations comparable to human-generated ones?**
 
 ---
 
