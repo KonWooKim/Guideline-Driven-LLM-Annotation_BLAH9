@@ -4,8 +4,6 @@
 
 - [Motivation](#motivation)
 - [Project Theme](#project-theme)
-- [Annotation Guidelines for LLM Annotators](#annotation-guidelines-for-llm-annotators)
-- [LLM Guidelines](#llm-guidelines)
 - [Background](#background)
 - [Dataset](#dataset)
   - [NCBI Disease Corpus](#ncbi-disease-corpus)
