@@ -41,6 +41,8 @@ We aim to:
 - Provide explicit instructions to LLM annotators using existing domain-specific annotation guidelines.
 - Compare the performance of LLM-generated annotations against the gold-standard annotations made by human annotators.
 - Assess improvements in **F1-score**, **precision**, and **recall** when guidelines are incorporated.
+- investigate the performance gap between LLM annotators and human annotators
+- examine novel strategies to improve the understandability of LLM annotators and narrow the gap.
 
 ---
 
