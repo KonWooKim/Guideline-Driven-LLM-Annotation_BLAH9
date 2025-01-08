@@ -98,6 +98,7 @@ Provide the LLM with the entire annotation guideline as part of the prompt.
 (https://platform.openai.com/docs/guides/prompt-generation#prompts)
 
 <Details>
+  
 ```python
 from openai import OpenAI
 
