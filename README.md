@@ -96,7 +96,8 @@ Provide the LLM with the entire annotation guideline as part of the prompt.
 
 (https://platform.openai.com/docs/guides/prompt-engineering)
 (https://platform.openai.com/docs/guides/prompt-generation#prompts)
-  
+
+<Details>
 ```python
 from openai import OpenAI
 
@@ -165,7 +166,7 @@ def generate_prompt(task_or_prompt: str):
 
   return completion.choices[0].message.content
 ```
-
+</Details>
 ---
 
 ### 2. Knowledge-Embedding in Customized LLMs (GPTs)
