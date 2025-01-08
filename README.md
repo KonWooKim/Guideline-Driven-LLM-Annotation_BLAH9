@@ -168,9 +168,12 @@ def generate_prompt(task_or_prompt: str):
   return completion.choices[0].message.content
 ```
 
+</**Details**>
+
+
 ---
 
-</**Details**>
+
 
 ### 2. Knowledge-Embedding in Customized LLMs (GPTs)
 
