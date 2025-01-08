@@ -87,12 +87,10 @@ We will test three compatible approaches to knowledge embedding with guideline p
 
 Provide the LLM with the entire annotation guideline as part of the prompt. 
 
-**Implementation**
+**Steps**
 
 1. **Guideline Insertion**: Insert the entire guideline in the prompt.
 2. **Prompt Construction**: Build a structured prompt that includes these rules alongside sample text passages.
-3. **LLM Annotation**: Prompt GPT-4 (or similar models) to label relevant entities.
-4. **Evaluation**: Compare the generated annotations with the gold-standard annotations using PubAnnotation.
 
 (https://platform.openai.com/docs/guides/prompt-engineering)
 (https://platform.openai.com/docs/guides/prompt-generation#prompts)
@@ -181,12 +179,10 @@ def generate_prompt(task_or_prompt: str):
 
 Integrate the annotation guidelines directly into knowledge in a customized GPT so that it inherently "learns" and "knows" the annotation rules.
 
-**Implementation**
+**Steps**
 
 1. **Guideline Preparation**: Prepare guidelines in any formats, such as PDF, JSON, or TXT.
 2. **Knowledge Embedding**: Embed knowledge, guidelines, or biomedical text to ensure that they become part of LLM annotators' internal knowledge.
-3. **LLM Annotations**: ask LLM annotators to label relevant entities.
-4. **Evaluation**: Compare the generated annotations with the gold-standard annotations using PubAnnotation.
 
 (https://openai.com/index/introducing-gpts/)
 
@@ -204,12 +200,10 @@ Integrate the annotation guidelines directly into knowledge in a customized GPT 
 
 Provide a live reference interface where the LLM can dynamically query guidelines on demand during the annotation task.
 
-**Implementation**
+**Steps**
 
 1. **Reference creation**: Create a website that clearly structures the guidelines (e.g., definitions, examples, what-to-annotate and what-not-to-annotate, and annotation cases).
 2. **Configuration**: Configure the LLM to reference the website as needed.
-3. **LLM Annotations**: ask LLM annotators to label relevant entities.
-4. **Evaluation**: Compare the generated annotations with the gold-standard annotations using PubAnnotation.
 
 (https://github.com/KonWooKim/Guideline)
 
