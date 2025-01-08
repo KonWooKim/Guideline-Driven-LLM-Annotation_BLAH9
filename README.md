@@ -190,7 +190,11 @@ Integrate the annotation guidelines directly into knowledge in a customized GPT 
 
 (https://openai.com/index/introducing-gpts/)
 
+**<Details>**
+
 ![GPTs](https://github.com/user-attachments/assets/941a0f71-4dc0-4e8d-a43b-88e6687cf23e)
+
+**</Details>**
 
 ---
 
@@ -209,7 +213,11 @@ Provide a live reference interface where the LLM can dynamically query guideline
 
 (https://github.com/KonWooKim/Guideline)
 
+**<Details>**
+
 ![image](https://github.com/user-attachments/assets/34494ccd-ac3d-4aef-b6fe-d11155b08dab)
+
+**</Details>**
 
 ---
 
