@@ -42,7 +42,7 @@ We aim to:
 - Compare the performance of LLM-generated annotations against the gold-standard annotations made by human annotators.
 - Assess improvements in **F1-score**, **precision**, and **recall** when guidelines are incorporated.
 - Investigate the performance gap between LLM annotators and human annotators.
-- Examine novel strategies to improve the understandability of LLM annotators and narrow the gap.
+- Explore further strategies to improve the understandability of LLM annotators and narrow the gap.
 
 ---
 
