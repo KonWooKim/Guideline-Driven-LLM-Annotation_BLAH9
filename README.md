@@ -1,4 +1,4 @@
-# Leveraging Annotation Guidelines in Prompting LLM Annotators
+# Repurposing Annotation Guidelines in Prompting LLM Annotators
 
 ## Table of Contents
 
