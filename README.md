@@ -242,6 +242,16 @@ Provide a live reference interface where the LLM can dynamically query guideline
 
 ---
 
+## Participants
+
+The following individuals have contributed to this project:
+
+- **Kon Woo Kim**
+- **Rezarta Islamaj Dogan**
+- **Jin-Dong Kim**
+
+---
+
 ### Extensions and Future Work
 
 - **Multi-Guideline Integration**: Explore how multiple sets of overlapping or conflicting guidelines can be harmonized within the same LLM.
