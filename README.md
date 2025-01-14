@@ -276,27 +276,19 @@ Abbreviation definitions such as “Huntington disease” (“HD”) are separat
 
 # Examples
 
-## Example 1
-Input: "Diastrophic dysplasia is an autosomal recessive disease characterized by short stature, very short limbs, and joint problems that restrict mobility."
-- Annotation:
-  - "Diastrophic dysplasia": Specific Disease
-  - "autosomal recessive disease": Disease Class
-
-## Example 2
-Input: "The text phrase 'Duchenne and Becker muscular dystrophy' refers to two separate diseases."
-- Annotation:
-  - "Duchenne and Becker muscular dystrophy": Composite Mention
-
-## Example 3
-Input: "Although this mutation was initially detected in four of 33 colorectal cancer families analysed from eastern England."
-- Annotation:
-  - "colorectal cancer": Modifier
-
-# Notes
-
-- Pay attention to context indicating whether partial terms (e.g., "acute") should be included in the annotation.
-- When synonyms or abbreviations of diseases are mentioned, annotate each form separately.
-- Examples provided in the document should be used as a reference framework for annotating similar mentions.
+{
+	"text":"Autosomal-dominant striatal degeneration is caused by a mutation in the phosphodiesterase 8B gene. Autosomal-dominant striatal degeneration (ADSD) is an autosomal-dominant movement disorder affecting the striatal part of the basal ganglia. ADSD is characterized by bradykinesia, dysarthria, and muscle rigidity. These symptoms resemble idiopathic Parkinson disease, but tremor is not present. Using genetic linkage analysis, we have mapped the causative genetic defect to a 3.25 megabase candidate region on chromosome 5q13.3-q14.1. A maximum LOD score of 4.1 (Theta = 0) was obtained at marker D5S1962. Here we show that ADSD is caused by a complex frameshift mutation (c.94G>C+c.95delT) in the phosphodiesterase 8B (PDE8B) gene, which results in a loss of enzymatic phosphodiesterase activity. We found that PDE8B is highly expressed in the brain, especially in the putamen, which is affected by ADSD. PDE8B degrades cyclic AMP, a second messenger implied in dopamine signaling. Dopamine is one of the main neurotransmitters involved in movement control and is deficient in Parkinson disease. We believe that the functional analysis of PDE8B will help to further elucidate the pathomechanism of ADSD as well as contribute to a better understanding of movement disorders.",
+	"sourcedb": "PubMed",
+	"sourceid": "20085714",
+	"denotations":[
+		{"obj":"Gene:8622","span":{"begin":72,"end":92}},
+		{"obj":"Disease:609161","span":{"begin":99,"end":139}},
+		{"obj":"Mutation:c|SUB|G|94|C","span":{"begin":671,"end":678}},
+		{"obj":"Mutation:c|DEL|95|T","span":{"begin":679,"end":687}},
+		{"obj":"Gene:8622","span":{"begin":696,"end":716}},
+		{"obj":"Chemical:D004298","span":{"begin":981,"end":989}}
+	]
+}
 """.strip()
 
 def generate_prompt(task_or_prompt: str):
