@@ -119,15 +119,11 @@ A textual string referring to a disease name may refer to a **Specific Disease**
   - “Diastrophic dysplasia” as **Specific Disease**  
   - “autosomal recessive disease” as **Disease Class**
 
----
-
 ## 2. Annotate **contiguous text strings**
 A textual string may refer to two or more separate disease mentions. Such mentions are annotated with the **Composite Mention** category.
 
 **Example**  
 > The text phrase “Duchenne and Becker muscular dystrophy” refers to two separate diseases. If this phrase is separated into two strings: “Duchenne” and “Becker muscular dystrophy,” it results in information loss, because the word “Duchenne” on its own is not a disease mention.
-
----
 
 ## 3. Annotate disease mentions that are used as **Modifiers** for other concepts
 A textual string may refer to a disease name, but it may modify a noun phrase (or may not be a noun phrase itself). In such cases, annotate using the **Modifier** category.
@@ -139,12 +135,8 @@ A textual string may refer to a disease name, but it may modify a noun phrase (o
   - “colorectal cancer” as **Modifier**  
   - “HNPCC” as **Modifier**
 
----
-
 ## 4. Annotate **duplicate mentions**
 For each sentence in the PubMed abstract and title, the locations of all disease mentions are marked, including duplicates within the same sentence.
-
----
 
 ## 5. Annotate **minimum necessary span of text**
 Use the smallest span necessary to include all tokens expressing the most specific form of the disease.
@@ -152,12 +144,8 @@ Use the smallest span necessary to include all tokens expressing the most specif
 **Example**  
 > In the case of “insulin-dependent diabetes mellitus,” the disease mention including the whole phrase was preferred over its substrings such as “diabetes mellitus” or “diabetes.”
 
----
-
 ## 6. Annotate all **synonymous mentions**
 Abbreviation definitions such as “Huntington disease” (“HD”) are separated into two annotated mentions (one for the long form, one for the abbreviation).
-
----
 
 # What NOT to Annotate
 
@@ -190,8 +178,6 @@ Abbreviation definitions such as “Huntington disease” (“HD”) are separat
      > WT1 dysfunction is implicated in both neoplastic (Wilms tumor, mesothelioma, leukemia, and breast cancer) and nonneoplastic (glomerulosclerosis) disease.  
      
      Here, the mentions “neoplastic disease” and “nonneoplastic disease” are not annotated because other tokens break up these phrases.
-
----
 
 # Examples
 
