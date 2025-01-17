@@ -376,6 +376,7 @@ Provide a live reference interface where the LLM can dynamically query guideline
 The following individuals have contributed to this project:
 
 - **Kon Woo Kim**
+- **Yichong Zhao**
 - **Rezarta Islamaj Dogan**
 - **Jin-Dong Kim**
 
